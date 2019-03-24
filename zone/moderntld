@@ -1,2 +1,2 @@
-moderntld.o.  IN  NS  dns-a.jda.mn.
-moderntld.o.  IN  NS  dns-b.jda.mn.
+moderntld  IN  NS  dns-a.jda.mn.
+moderntld  IN  NS  dns-b.jda.mn.
