@@ -2,16 +2,3 @@
 
 $ORIGIN o.
 $TTL 1D       ; 1 day
-@		IN	SOA	ns11.opennic.glue. jonah.opennic.org. (
-				2019032001	; serial
-				4H		; refresh (4 hours)
-				1H		; retry (1 hour)
-				1W		; expire (1 week)
-				1H		; minimum (1 hour)
-				)
-; TLD information
-		IN	NS	ns11.opennic.glue.
-		IN	NS	ns2.opennic.glue.
-;
-; Additional zones
-;

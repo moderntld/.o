@@ -3,6 +3,8 @@
 
 #Variables
 TLD='o'
+NS='ns11.opennic.glue.'
+EMAIL='jonah.opennic.org.'
 CHECKZONE=/usr/sbin/named-checkzone
 TMP_DEST='/tmp/db.o'
 WORK_DIR='/opt/tld/o/'
@@ -14,6 +16,26 @@ cd $WORK_DIR
 git fetch origin master > /dev/null
 git reset --hard origin/master > /dev/null
 
+# ADD NEW SOA!
+{ echo "@		IN	SOA	$NS $EMAIL ("
+  echo "        `date +%s`  ; serial"
+  echo "        4H    ; refresh (4 hours)"
+  echo "        1H    ; retry (1 hour)"
+  echo "        1W    ; expire (1 week)"
+  echo "        1H    ; minimum (1 hour)"
+  echo "        )"
+} >> $WORK_DIR$FILE_NAME
+
+# ADD NAMESERVERS!
+{ echo "; TLD information"
+  echo "		IN	NS	ns11.opennic.glue."
+  echo "		IN	NS	ns2.opennic.glue."
+  echo ";"
+  echo "; Additional zones"
+  echo ";"
+} >> $WORK_DIR$FILE_NAME
+
+
 for f in $FILES
 do
   cp $WORK_DIR$FILE_NAME $TMP_DEST
@@ -24,7 +46,7 @@ do
     echo "Failed to add ${f}.o to the main zone!"
   else
     echo "Processed ${f}.o Successfully"
-    echo ";`git log --oneline -- $f | tail -n 1`" >> $FILE_NAME
+    echo "; `git log --oneline -- $f | tail -n 1`" >> $FILE_NAME
     cat $f >> $FILE_NAME
   fi
 
