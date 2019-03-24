@@ -1,0 +1,9 @@
+dist: xenial
+language: minimal
+addons:
+  apt:
+    packages:
+    - bind9
+script:
+- /bin/bash verify_domains.sh
+- /bin/bash test_zones.sh
