@@ -1,7 +1,0 @@
-[
-  {
-    "id": "redeploy-webhook",
-    "execute-command": "bash update_o.sh",
-    "command-working-directory": "/opt/tld/o"
-  }
-]
