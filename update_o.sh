@@ -2,7 +2,8 @@
 #Update script for ".o" on BIND9/Ubuntu 18.04
 
 #Variables
-CHECKCONF=/usr/sbin/named-checkconf
+TLD='o'
+CHECKZONE=/usr/sbin/named-checkzone
 TMP_DEST='/tmp/db.o'
 WORK_DIR='/opt/tld/o/'
 FILE_NAME='db.o'
@@ -18,8 +19,8 @@ do
   cp $WORK_DIR$FILE_NAME $TMP_DEST
   cat $f >> $TMP_DEST
 
-  TEST=$($CHECKCONF "$TMP_DEST")
-  if [ "$TEST" ]; then
+  TEST=$($CHECKZONE $TLD "$TMP_DEST" | tail -n 1)
+  if [ "$TEST" == "OK" ]; then
     echo "Failed to add ${f}.o to the main zone!"
   else
     echo "Processed ${f}.o Successfully"
@@ -27,14 +28,14 @@ do
     cat $f >> $FILE_NAME
   fi
 
-  VERIFY=$($CHECKCONF "$WORK_DIR$FILE_NAME")
-  if [ "$VERIFY" ]; then
+  VERIFY=$($CHECKZONE $TLD "$WORK_DIR$FILE_NAME" | tail -n 1)
+  if [ "$VERIFY" == "OK" ]; then
     echo "Some unknown error occured: $WORK_DIR$FILE_NAME"
     exit 1
   fi
 done
 
 rm ${OUTPUT_DIR}db*
-cp $WORK_DIR$FILE_NAME /etc/bind/zone/master/o/
+cp $WORK_DIR$FILE_NAME $OUTPUT_DIR
 
 systemctl reload bind9
