@@ -20,7 +20,7 @@ do
   cat $f >> $TMP_DEST
 
   TEST=$($CHECKZONE $TLD "$TMP_DEST" | tail -n 1)
-  if [ "$TEST" == "OK" ]; then
+  if [ "$TEST" != "OK" ]; then
     echo "Failed to add ${f}.o to the main zone!"
   else
     echo "Processed ${f}.o Successfully"
@@ -29,7 +29,7 @@ do
   fi
 
   VERIFY=$($CHECKZONE $TLD "$WORK_DIR$FILE_NAME" | tail -n 1)
-  if [ "$VERIFY" == "OK" ]; then
+  if [ "$VERIFY" != "OK" ]; then
     echo "Some unknown error occured: $WORK_DIR$FILE_NAME"
     exit 1
   fi
