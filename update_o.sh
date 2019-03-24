@@ -29,7 +29,6 @@ git reset --hard origin/master > /dev/null
 # ADD NAMESERVERS!
 { echo "; TLD information"
   echo "		IN	NS	ns11.opennic.glue."
-  echo "		IN	NS	ns2.opennic.glue."
   echo ";"
   echo "; Additional zones"
   echo ";"
