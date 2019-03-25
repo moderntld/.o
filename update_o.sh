@@ -19,10 +19,10 @@ git reset --hard origin/master > /dev/null
 # ADD NEW SOA!
 { echo "@		IN	SOA	$NS $EMAIL ("
   echo "        `date +%s`  ; serial"
-  echo "        4H    ; refresh (4 hours)"
-  echo "        1H    ; retry (1 hour)"
-  echo "        1W    ; expire (1 week)"
-  echo "        1H    ; minimum (1 hour)"
+  echo "        300    ; refresh"
+  echo "        180    ; retry"
+  echo "        604800    ; expire"
+  echo "        10800    ; minimum"
   echo "        )"
 } >> $WORK_DIR$FILE_NAME
 
