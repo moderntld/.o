@@ -22,7 +22,7 @@ git reset --hard origin/master > /dev/null
   echo "        300    ; refresh"
   echo "        180    ; retry"
   echo "        604800    ; expire"
-  echo "        10800    ; minimum"
+  echo "        3600    ; minimum"
   echo "        )"
 } >> $WORK_DIR$FILE_NAME
 
