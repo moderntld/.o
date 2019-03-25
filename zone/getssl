@@ -1,0 +1,3 @@
+getssl  IN  NS  ns1.digitalocean.com.
+getssl  IN  NS  ns2.digitalocean.com.
+getssl  IN  NS  ns3.digitalocean.com.
