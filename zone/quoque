@@ -1,1 +1,2 @@
-quoque IN A 194.67.223.38
+quoque  IN  NS  ns21.cloudns.net.
+quoque  IN  NS  ns22.cloudns.net.
