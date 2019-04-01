@@ -1,0 +1,2 @@
+ryuk  IN  A  185.10.68.99
+www.ryuk  IN  CNAME  ryuk.o
