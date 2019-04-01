@@ -1,4 +1,4 @@
 ; BIND zone file for o
 
 $ORIGIN o.
-$TTL 1D       ; 1 day
+$TTL 2h       ; 2 hours
