@@ -1,0 +1,2 @@
+intranet  IN  A 172.195.174.195
+portal.intranet IN  CNAME rbxii3.net
