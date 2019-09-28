@@ -1,1 +1,5 @@
 lazynko IN NS ns1.pra.cz.dns.opennic.glue
+lazynko IN NS ns10.fr.dns.opennic.glue
+lazynko  IN  A  88.212.47.36
+lazynko IN AAAA 2a02:130:68d:f901:4529:ddf5:ee30:77bf
+www.lazynko  IN  CNAME  lazynk.o
