@@ -1,0 +1,4 @@
+ns1.rebeltracker  IN  AAAA  2001:44b8:6135:ec00::10
+ns2.rebeltracker  IN  AAAA  2001:44b8:6135:ec00::11
+rebeltracker  IN  NS  ns1.rebeltracker.o.
+rebeltracker  IN  NS  ns2.rebeltracker.o.
