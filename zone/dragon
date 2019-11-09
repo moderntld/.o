@@ -1,0 +1,3 @@
+dragon  IN  A  10.10.10.10
+www.dragon  IN  CNAME  dragon.o.
+dragon  IN  AAAA  2001:470:70ec:0:76d0:2bff:fe1e:9c01
