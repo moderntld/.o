@@ -1,2 +1,3 @@
-envs  IN  NS  envs.net.
+envs  IN  NS  ns1.envs.net.
+envs  IN  NS  ns2.envs.net.
 envs  IN  NS  ns1.tildeverse.net.

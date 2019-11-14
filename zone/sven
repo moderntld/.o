@@ -1,2 +1,3 @@
-sven  IN  NS  envs.net.
+sven  IN  NS  ns1.envs.net.
+sven  IN  NS  ns2.envs.net.
 sven  IN  NS  ns1.tildeverse.net.
