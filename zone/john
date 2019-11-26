@@ -1,0 +1,4 @@
+ns1.john.o  IN  A  149.255.60.1
+ns2.john.o  IN  A  149.255.60.9
+example  IN  NS  ns1.john.o
+example  IN  NS  ns2.john.o
