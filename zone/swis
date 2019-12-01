@@ -1,0 +1,2 @@
+swis  IN  A  157.245.6.117
+www.swis  IN  CNAME  swis.o.
