@@ -1,0 +1,4 @@
+dragon IN A 81.174.166.128
+www.dragon IN CNAME dragon.o.
+dragon IN AAAA 2001:470:70ec:0:76d0:2bff:fe1e:9c01
+www.dragon IN AAAA 2001:470:70ec:0:76d0:2bff:fe1e:9c01
