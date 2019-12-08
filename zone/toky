@@ -1,0 +1,3 @@
+toky  IN  NS ns5.nsw.au.dns.opennic.glue.
+toky  IN  NS ns1.jp.dns.opennic.glue.
+www.toky  IN  CNAME  toky.o.
