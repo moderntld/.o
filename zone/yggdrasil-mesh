@@ -1,0 +1,4 @@
+ns1.yggdrasil-mesh  IN  A  95.217.23.233
+ns2.yggdrasil-mesh  IN  A  95.217.23.234
+yggdrasil-mesh  IN NS  ns1.yggdrasil-mesh.o.
+yggdrasil-mesh  IN NS  ns2.yggdrasil-mesh.o.
