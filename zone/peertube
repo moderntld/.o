@@ -1,0 +1,2 @@
+peertube  IN NS  ns1.yggdrasil-mesh.o.
+peertube  IN NS  ns2.yggdrasil-mesh.o.
