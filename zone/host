@@ -1,0 +1,4 @@
+ns1.host  IN  A  149.255.60.1
+ns2.host  IN  A  149.255.60.9
+host IN NS ns1.host.o.
+host IN NS ns2.host.o.
