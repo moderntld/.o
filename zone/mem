@@ -1,0 +1,2 @@
+mem  IN  A  80.229.20.77
+www.mem  IN  CNAME  mem.o.
