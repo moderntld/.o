@@ -1,0 +1,2 @@
+jon  IN  A  10.10.10.10
+www.jon  IN  CNAME  jon.o.
