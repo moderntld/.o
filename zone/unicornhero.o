@@ -1,0 +1,11 @@
+unicornhero.o	IN	NS	ns1.he.net
+unicornhero.o	IN	NS	ns2.he.net
+unicornhero.o IN	NS	ns3.he.net
+unicornhero.o	IN	NS	ns4.he.net
+unicornhero.o	IN	NS	ns5.he.net
+unicornhero.o IN  NS  1.1.1.1
+unicornhero.o IN  NS  1.0.0.1
+unicornhero.o IN  AAAA  2001:470:66:3c6::2/64
+unicornhero.o IN  AAAA  2001:470:c:540::2/64
+
+
