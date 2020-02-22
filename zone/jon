@@ -1,0 +1,2 @@
+jon  IN  A  80.229.20.77
+www.jon  IN  CNAME  jon.o.
