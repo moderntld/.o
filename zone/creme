@@ -1,2 +1,3 @@
-creme  IN  NS  envs.net.
+creme  IN  NS  ns1.envs.net.
+creme  IN  NS  ns2.envs.net.
 creme  IN  NS  ns1.tildeverse.net.
