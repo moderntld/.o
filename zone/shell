@@ -1,0 +1,2 @@
+shell IN NS ns1.shell
+ns1.shell IN A 167.99.161.174
