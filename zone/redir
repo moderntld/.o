@@ -1,0 +1,2 @@
+redir IN NS ns1.dan.com
+redir IN NS ns2.dan.com
