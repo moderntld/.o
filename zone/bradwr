@@ -1,0 +1,5 @@
+bradwr      IN  A     185.199.108.153
+bradwr      IN  A     185.199.109.153
+bradwr      IN  A     185.199.110.153
+bradwr      IN  A     185.199.111.153
+www.bradwr  IN  CNAME furtarball.github.io.
