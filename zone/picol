@@ -1,0 +1,6 @@
+picol IN A 185.199.108.153
+picol IN A 185.199.109.153
+picol IN A 185.199.110.153
+picol IN A 185.199.111.153
+www.picol IN CNAME luizpicolo.github.io.
+luiz.picol IN CNAME luizpicolo.github.io.
