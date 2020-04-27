@@ -1,0 +1,4 @@
+ns2.ingju  IN  A  79.252.170.135
+ns3.ingju  IN  A  178.27.211.131
+ingju  IN  NS  ns2.ingju.o.
+ingju  IN  NS  ns3.ingju.o.
