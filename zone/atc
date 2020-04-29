@@ -1,0 +1,4 @@
+ns1.atc  IN  A  220.135.23.4
+ns2.atc  IN  A  220.135.23.4
+atc  IN  NS  ns1.atc.o.
+atc  IN  NS  ns2.atc.o.
