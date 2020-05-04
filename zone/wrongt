@@ -1,3 +1,2 @@
-wrongt IN A 95.65.124.167 
-www.wrongt IN CNAME wrongt.o.
-im.wrongt IN CNAME wrongt.o.
+ns1.wrongt IN A 95.65.124.167
+wrongt IN NS ns1.wrongt.o.
