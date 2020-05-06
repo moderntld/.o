@@ -1,2 +1,4 @@
 ns1.wrongt IN A 95.65.124.167
+ns2.wrongt IN A 5.56.103.84
 wrongt IN NS ns1.wrongt.o.
+wrongt IN NS ns2.wrongt.o.
