@@ -1,0 +1,4 @@
+ns1.europeanmedia IN A 5.56.103.84
+ns2.europeanmedia IN A 95.65.124.167
+europeanmedia IN NS ns1.europeanmedia.o.
+europeanmedia IN NS ns2.europeanmedia.o.
