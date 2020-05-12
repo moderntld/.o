@@ -1,0 +1,2 @@
+sim  IN  A  192.30.252.154
+www.sim  IN  CNAME  sim.o.
