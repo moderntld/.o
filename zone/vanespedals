@@ -1,0 +1,10 @@
+vanespedals			IN	A	185.199.108.153
+vanespedals			IN	A	185.199.110.153
+vanespedals			IN	A	185.199.111.153
+vanespedals			IN	A	185.199.109.153
+www.vanespedals 	        IN      CNAME   vanespedals.github.io.
+vanespedals			IN	MX	1 ASPMX.L.GOOGLE.COM.
+vanespedals			IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+vanespedals			IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
+vanespedals			IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+vanespedals			IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
