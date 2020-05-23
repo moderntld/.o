@@ -1,2 +1,2 @@
-webmaster  IN  NS  ns1.webmaster.libre.
-webmaster  IN  A   103.245.195.144
+webmaster  IN  A  103.245.195.144
+www.webmaster  IN  CNAME  example.o.
