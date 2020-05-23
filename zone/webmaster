@@ -1,2 +1,2 @@
 webmaster  IN  A  103.245.195.144
-www.webmaster  IN  CNAME  example.o.
+www.webmaster  IN  CNAME  webmaster.o.
