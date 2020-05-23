@@ -1,2 +1,2 @@
-webmaster  IN  NS  server1.centsoft.us.to.
+webmaster  IN  NS  ns1.webmaster.libre.
 webmaster  IN  A   103.245.195.144
