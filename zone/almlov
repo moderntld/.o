@@ -1,4 +1,4 @@
 ns1.almlov  IN  A  62.80.223.134
 ns2.almlov  IN  A  62.80.223.142
-example  IN  NS  ns1.almlov.o.
-example  IN  NS  ns2.almlov.o.
+almlov  IN  NS  ns1.almlov.o.
+almlov  IN  NS  ns2.almlov.o.
