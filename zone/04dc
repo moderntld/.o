@@ -1,4 +1,6 @@
 04dc IN NS ns0.04dc.o.
 04dc IN NS ns1.04dc.o.
 ns0.04dc IN A 109.96.124.163
+ns0.04dc IN AAAA 2001:470:1f1b:1fb::10:4dc0
 ns1.04dc IN A 109.96.124.163
+ns1.04dc IN AAAA 2001:470:1f1b:1fb::10:4dc0
