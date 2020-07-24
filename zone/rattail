@@ -1,0 +1,2 @@
+rattail  IN  A  66.6.44.4
+www.rattail  IN  CNAME  rattail.o.
