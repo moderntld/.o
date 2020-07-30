@@ -1,1 +1,2 @@
 sandr IN CNAME supersandro.de.
+*.sandr IN CNAME supersandro.de.
