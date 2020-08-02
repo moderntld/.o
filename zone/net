@@ -1,0 +1,4 @@
+net IN NS ns101.cloudns.net.
+net IN NS ns102.cloudns.net.
+net IN NS ns103.cloudns.net.
+net IN NS ns104.cloudns.net.
