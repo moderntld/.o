@@ -1,3 +1,2 @@
 broetje IN CNAME broetje.online.
-broetje IN MX mail.broetje.online.
 *.broetje IN CNAME broetje.online.
