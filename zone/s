@@ -1,0 +1,5 @@
+s IN NS ns0.s.o.
+s IN NS ns1.s.o.
+ns0.s IN A 193.32.249.138
+ns1.s IN A 193.32.249.138
+s IN A 193.32.249.138
