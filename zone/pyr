@@ -1,0 +1,5 @@
+pyr IN NS ns0.pyr.o.
+pyr IN NS ns1.pyr.o.
+ns0.pyr IN A 193.32.249.138
+ns1.pyr IN A 193.32.249.138
+pyr IN A 193.32.249.138
