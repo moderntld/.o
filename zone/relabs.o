@@ -1,0 +1,5 @@
+;
+;  RELABS.O BIND ZONE CONFIGURATION
+;
+relabs IN NS ns1.cloudns.io.
+relabs IN NS ns2.cloudns.io.
