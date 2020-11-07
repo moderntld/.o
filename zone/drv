@@ -1,0 +1,3 @@
+drv  IN  NS  ns1.darve.sh.
+drv  IN  NS  ns2.darve.sh.
+drv  IN  NS  ns3.darve.sh.
