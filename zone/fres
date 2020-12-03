@@ -1,0 +1,5 @@
+fres  IN  NS  ns1.gratisdns.dk.
+fres  IN  NS  ns2.gratisdns.dk.
+fres  IN  NS  ns3.gratisdns.dk.
+fres  IN  NS  ns4.gratisdns.dk.
+fres  IN  NS  ns5.gratisdns.dk.
