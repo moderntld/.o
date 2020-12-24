@@ -1,0 +1,6 @@
+## here is to create a domain to match my initials.
+ar  IN  NS  2001:67c:13e4:1::37
+ar  IN  NS  2a00:f826:8:2::195
+ar  IN  NS  2a01:7e01::f03c:91ff:febc:322
+ar  IN  NS  195.10.195.195
+ar  IN  NS  172.104.136.243
