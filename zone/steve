@@ -1,0 +1,5 @@
+steve      IN  A     185.199.108.153
+steve      IN  A     185.199.109.153
+steve      IN  A     185.199.110.153
+steve      IN  A     185.199.111.153
+www.steve  IN  CNAME sorens.github.io.
