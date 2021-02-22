@@ -1,2 +1,2 @@
-registry  NS  ns1.thos-host.com.
+registry  IN  NS  ns1.thos-host.com.
 registry  IN  NS  ns2.thos-host.com.
