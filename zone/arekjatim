@@ -1,4 +1,2 @@
-arekjatim  IN  NS  ns1.he.net.
-arekjatim  IN  NS  ns2.he.net.
-arekjatim  IN  NS  ns3.he.net.
-arekjatim  IN  NS  ns4.he.net.
+arekjatim  IN  A  103.82.243.61
+www.arekjatim  IN  CNAME  arekjatim.o.
