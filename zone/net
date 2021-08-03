@@ -1,0 +1,2 @@
+net  IN  NS  ns1.mf-net.eu.
+net  IN  NS  ns2.mf-net.eu.
