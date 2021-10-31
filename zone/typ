@@ -1,0 +1,2 @@
+typ  IN  A  125.176.25.241
+www.typ  IN  CNAME  typ.o.
