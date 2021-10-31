@@ -1,0 +1,5 @@
+;
+;  SSMIDGE.O BIND ZONE CONFIGURATION
+;
+ssmidge IN NS lilith.ns.cloudflare.com.
+ssmidge IN NS moura.ns.cloudflare.com.
